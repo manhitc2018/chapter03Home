@@ -247,7 +247,7 @@
 
         .c-mainvisual__subTitle {
             font-size: 1.5rem;
-            transform: translateX(-34px);
+            transform: translateX(-35px);
             margin-top: 15px;
             margin-bottom: 14px;
         }
@@ -280,6 +280,7 @@
 
         .c-product__item {
             width: 100%;
+            flex-basis: 250px;
 
             &:nth-child(1) {
                 transform: translate(73px, 73px);
@@ -301,7 +302,7 @@
             }
 
             &:nth-child(2) {
-                transform: translate(-25px, 88px);
+                transform: translate(40px, 88px);
 
                 .c-product__item--text {
                     transform: translate(1px, 2px);
@@ -321,7 +322,7 @@
             }
 
             &:nth-child(4) {
-                transform: translate(-74px, 142px);
+                transform: translate(-8px, 142px);
 
                 &::before {
                     content: "";
@@ -351,7 +352,7 @@
             }
 
             &:nth-child(6) {
-                transform: translate(-25px, 223px);
+                transform: translate(40px, 223px);
 
                 &::before {
                     content: "";
@@ -381,7 +382,7 @@
             }
 
             &:nth-child(8) {
-                transform: translate(-25px, 253px);
+                transform: translate(40px, 253px);
 
                 .c-product__item--text {
                     transform: translate(8px, 4px);
@@ -399,7 +400,7 @@
     }
 
     .c-uses {
-        padding: 35px 0 104px;
+        padding: 35px 0 54px;
 
         .c-uses__top {
             width: 100%;
@@ -527,12 +528,131 @@
                 border-radius: 10px;
             }
         }
+
+        .c-brand__text {
+            display: none;
+        }
+
+        .c-brand__textMb {
+            font-size: 1.3rem;
+            color: #333;
+            line-height: 1.75;
+            text-align: center;
+            margin-top: -2px;
+
+            span {
+                display: block;
+            }
+        }
     }
 
     .break-line {
         display: block;
         margin-top: 3px;
     }
+
+    .c-break__line {
+        display: block;
+    }
+
+    .c-qa {
+        .l-container {
+            padding: 0 10px;
+        }
+        padding: 33px 0 7px;
+
+        .c-qa__title {
+            font-size: 2rem;
+            margin-bottom: 23px;
+        }
+
+        .c-qa__questionContent {
+            font-size: 1.3rem;
+            padding-left: 10px;
+            letter-spacing: 0.1em;
+        }
+
+        .c-qa__item {
+            margin-left: 5px;
+            margin-bottom: 26px;
+
+            &:nth-child(2) {
+                .c-qa__question {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .c-qa__content {
+            padding-left: 0;
+        }
+
+        .c-qa__gimages {
+            flex: 0 0 40px;
+        }
+
+        .c-qa__answerContent {
+            font-size: 1.3rem;
+            line-height: 1.7;
+
+        }
+        
+    }
+
+    .c-feature {
+        padding-top: 0;
+
+        .l-container {
+            padding: 0 10px;
+        }
+
+        .c-feature__gimages {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .c-feature__content {
+            margin-top: 36px;
+        }
+
+        .u-borderRadius__50 {
+            border-radius: 25px;
+        }
+
+        .c-box02__text {
+            margin-left: 5px;
+            font-size: 1.3rem;
+            line-height: 1.695;
+        }
+
+        .c-box02 {
+            width: 100%;
+
+            .c-box02__top {
+                align-items: flex-start;
+                padding: 0 5px;
+                margin-bottom: 5px;
+            }
+
+            .c-box02__gimage {
+                min-width: 80px;
+                height: 33px;
+                transform: translateY(4px);
+            }
+
+            .c-box02__title {
+                font-size: 1.5rem;
+                margin-left: 9px;
+                line-height: 1.79;
+
+                .c-box02__title--small {
+                    font-size: 1.1rem;
+                }
+            } 
+        }
+    }
+
 }
 
 
