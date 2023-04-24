@@ -1,0 +1,64 @@
+/*------------------------------------------------------------
+other
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-uses {
+    .c-uses__gnumbers {
+        margin-right: 28px;
+    }
+
+    .c-uses__top {
+        display: flex;   
+    }
+    
+    .c-uses__title {
+        font-size: 3.6rem;
+        color: #176b6a;
+        transform: translateY(-5px);
+        letter-spacing: 0.1em;
+        margin-bottom: 8px;
+    }
+    
+    .c-uses__subtitle {
+        font-size: 1.4rem;
+        line-height: 1.867;
+        color: #000;
+        transform: translateX(3px);
+    }
+
+    .c-uses__list {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -20px;
+    }
+
+    .c-uses__item {
+        position: relative;
+        border-radius: 30px;
+
+    }
+
+    .c-uses__itemImg {
+        border-radius: 30px;
+    }
+
+    .c-uses__moreBtn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+.c-col__3 {
+    width: calc(33.334% - 20px);
+    margin-left: 20px;
+}
+
+.c-col__4 {
+    width: calc(25% - 20px);
+    margin-left: 20px;
+}
+
+

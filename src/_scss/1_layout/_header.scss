@@ -1,0 +1,38 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 16;
+}
+/* Main menu
+------------------------------------------------------------*/
+.c-gnav {
+    position: fixed;
+    top: 67px;
+    left: 0;
+
+    .c-nav__item {
+        width: 198px;
+        margin-bottom: 14px; 
+    } 
+
+    .c-nav__link {
+        background-image: url("./assets/img/chapter03_bgNav.png");
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        font-size: 1.6rem;
+        line-height: 1.625;
+        color: #fff;
+        letter-spacing: 0.1em;
+        padding: 9px 20px;
+        font-weight: 400;
+    }
+
+}

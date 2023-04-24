@@ -1,0 +1,29 @@
+/*------------------------------------------------------------
+footer
+------------------------------------------------------------*/
+.c-footer {
+    padding: 0 30px 30px;
+
+    .c-content {
+        width: 100%;
+        background-color: #fff;
+        padding-top: 30px;
+        padding-bottom: 58px;
+    }
+
+    .l-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c-footer__text {
+        color: #282828;
+        line-height: 1.714;
+        transform: translateY(-7px);
+    }
+}
+@media screen and (max-width:1024px) {
+    .c-footer {
+        padding: 0 15px 15px;
+    }
+}
