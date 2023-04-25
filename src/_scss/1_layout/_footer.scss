@@ -27,3 +27,34 @@ footer
         padding: 0 15px 15px;
     }
 }
+@media screen and (max-width: 767px) {
+    .c-footer {
+        .l-container {
+            flex-wrap: wrap;
+        }
+
+        .c-content {
+            padding-bottom: 50px;
+        }
+
+        .c-footer__text {
+            font-size: 1.3rem;
+            letter-spacing: 0;
+            margin-bottom: 18px;
+        }
+
+        .c-footer__logo {
+            margin: auto;
+        }
+
+        .c-footer__tel {
+            margin-left: 2px; 
+        }
+
+        .c-footer__time {
+            padding-left: 6px; 
+        }
+        
+    }
+    
+}

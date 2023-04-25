@@ -434,7 +434,115 @@ section {
         .c-box02__title {
             margin-left: 15px;
         }
+
+
     }
     
 } 
 
+.c-brand__textMb,
+.c-uses__titleMb.c-uses__title {
+    display: none;
+}
+
+.c-leafs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    z-index: 999;
+
+    .c-leaf__top {
+        left: 50%;
+        position: absolute;
+        top: 0;
+        transform: translateX(-90%);
+        transition: top linear 0.8s;
+
+        &.c-leaf__transformtop {
+            top: -50px;
+        }    
+    }
+
+    .c-leaf__bottom {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(133%);
+        transition: right linear 0.8s;
+
+        &.c-leaf__transformright {
+            right: -55px;
+        }
+    } 
+}
+
+.c-bubbles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    min-height: 800px;
+    width: 100%;
+    z-index: 999;
+    transition: all 1s ease;
+
+    .c-bubbles__01 {
+        position: absolute;
+        top: 56.3%;
+        left: 16.2%;
+        animation: bubbles linear 2s infinite;
+    }
+
+    .c-bubbles__02 {
+        position: absolute;
+        top: 70.3%;
+        left: 29.2%;
+        animation: bubbles ease-in 2.5s infinite;
+    }
+
+    .c-bubbles__03 {
+        position: absolute;
+        top: 68.5%;
+        right: 22.4%;
+        animation: bubbles ease-in-out 3s infinite;
+    }
+
+    .c-bubbles__04 {
+        position: absolute;
+        top: 13.8%;
+        right: 13.5%;
+        animation: bubbles linear 2s infinite;
+    }
+
+    .c-bubbles__05 {
+        position: absolute;
+        top: 7.8%;
+        right: 36.2%;
+        animation: bubbles ease-in 2.5s infinite;
+    }
+
+    .c-bubbles__06 {
+        position: absolute;
+        top: 10.9%;
+        left: 28.5%;
+        animation: bubbles ease-in-out 3s infinite;
+    }
+}
+
+
+@keyframes bubbles {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, -10px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+    
+}
